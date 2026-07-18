@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Model Town Whites Cage Cricket Club | Premium Cage Cricket in Lahore</title>
+<meta name="description" content="Model Town Whites Cage Cricket Club - Lahore's premium indoor & outdoor cage cricket facility. Day-night net practice, bowling machines, premium turf pitches, and club memberships." />
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Progress Bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <div class="preloader-ball"></div>
+    <p class="preloader-text">MODEL TOWN WHITES</p>
+  </div>
+</div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#home" class="logo" data-scroll>
+      <span class="logo-mark">
+        <i class="fa-solid fa-baseball" aria-hidden="true"></i>
+      </span>
+      <span class="logo-text">
+        MODEL TOWN <span class="accent">WHITES</span>
+        <small>CAGE CRICKET CLUB</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" data-scroll>Home</a>
+      <a href="#about" data-scroll>About</a>
+      <a href="#features" data-scroll>Features</a>
+      <a href="#timings" data-scroll>Timings</a>
+      <a href="#contact" data-scroll>Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-primary nav-cta magnetic" data-scroll>
+      <span>Book a Slot</span>
+      <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <nav class="mobile-nav-links">
+    <a href="#home" data-scroll>Home</a>
+    <a href="#about" data-scroll>About</a>
+    <a href="#features" data-scroll>Features</a>
+    <a href="#timings" data-scroll>Timings</a>
+    <a href="#contact" data-scroll>Contact</a>
+  </nav>
+  <a href="#contact" class="btn btn-primary" data-scroll>Book a Slot</a>
+  <div class="mobile-menu-footer">
+    <a href="tel:+923214489894"><i class="fa-solid fa-phone"></i> +92 321 4489894</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <canvas id="particleCanvas" class="particle-canvas"></canvas>
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <div class="hero-grid-overlay"></div>
+
+  <div class="container hero-content">
+    <div class="hero-badge reveal" data-reveal="fade-up">
+      <span class="dot-pulse"></span>
+      Lahore's Premier Cage Cricket Facility
+    </div>
+
+    <h1 class="hero-title">
+      <span class="reveal-line">
+        <span class="reveal-line-inner" data-reveal="slide-up" style="--delay:0.05s">UNLEASH YOUR</span>
+      </span>
+      <span class="reveal-line">
+        <span class="reveal-line-inner accent-text" data-reveal="slide-up" style="--delay:0.2s">GAME. EVERY.</span>
+      </span>
+      <span class="reveal-line">
+        <span class="reveal-line-inner" data-reveal="slide-up" style="--delay:0.35s">SINGLE. BALL.</span>
+      </span>
+    </h1>
+
+    <p class="hero-subtitle reveal" data-reveal="fade-up" style="--delay:0.5s">
+      Train under lights, face the bowling machine, and sharpen your edge on premium turf —
+      Model Town Whites Cage Cricket Club is where Lahore's cricketers come to level up, day or night.
+    </p>
+
+    <div class="hero-cta-group reveal" data-reveal="fade-up" style="--delay:0.65s">
+      <a href="#contact" class="btn btn-primary btn-lg magnetic" data-scroll>
+        <span>Book Your Slot Now</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="#features" class="btn btn-outline btn-lg magnetic" data-scroll>
+        <span>Explore Facilities</span>
+      </a>
+    </div>
+
+    <div class="hero-stats reveal" data-reveal="fade-up" style="--delay:0.8s">
+      <div class="hero-stat">
+        <span class="hero-stat-number" data-count="19" data-suffix="h">0</span>
+        <span class="hero-stat-label">Daily Open Hours (Weekdays)</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-number" data-count="6" data-suffix="+">0</span>
+        <span class="hero-stat-label">Premium Facilities</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat-number" data-count="7" data-suffix="">0</span>
+        <span class="hero-stat-label">Days a Week Access</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-indicator-line"><div class="scroll-indicator-dot"></div></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow reveal" data-reveal="fade-up">Who We Are</span>
+      <h2 class="section-title reveal" data-reveal="fade-up" style="--delay:0.1s">
+        Built for Cricketers Who Refuse<br class="br-desktop" /> to Stand Still
+      </h2>
+      <p class="section-desc reveal" data-reveal="fade-up" style="--delay:0.2s">
+        Model Town Whites Cage Cricket Club sits in the heart of Model Town, Lahore — a dedicated,
+        purpose-built cage cricket arena engineered for serious practice. Whether you're a weekend
+        player chasing rhythm or a competitive batter grinding reps against the machine, our caged
+        pitches, floodlit nets, and premium turf give you a controlled, high-repetition environment
+        to train exactly the way the game demands.
+      </p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card large reveal" data-reveal="scale-up">
+        <div class="about-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>Cage-Controlled Precision</h3>
+        <p>Fully enclosed cricket cages mean every ball stays in play — more reps, zero wasted time chasing shots.</p>
+      </div>
+      <div class="about-card reveal" data-reveal="scale-up" style="--delay:0.1s">
+        <div class="about-card-icon"><i class="fa-solid fa-sun"></i></div>
+        <h3>Day & Night Access</h3>
+        <p>Floodlit facilities keep the game alive well after sunset, seven days a week.</p>
+      </div>
+      <div class="about-card reveal" data-reveal="scale-up" style="--delay:0.2s">
+        <div class="about-card-icon"><i class="fa-solid fa-users"></i></div>
+        <h3>Community Driven</h3>
+        <p>A home ground for Model Town's cricket community — memberships, squads, and regular players welcome.</p>
+      </div>
+      <div class="about-card wide reveal" data-reveal="scale-up" style="--delay:0.3s">
+        <div class="about-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+        <h3>Prime Model Town Location</h3>
+        <p>Located on Model Town Circular Road, Block E — easy to reach, easy to make a habit of.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow reveal" data-reveal="fade-up">What We Offer</span>
+      <h2 class="section-title reveal" data-reveal="fade-up" style="--delay:0.1s">
+        Premium Facilities.<br class="br-desktop" /> Zero Compromises.
+      </h2>
+      <p class="section-desc reveal" data-reveal="fade-up" style="--delay:0.2s">
+        Six dedicated offerings built around one goal — making every session at Model Town Whites
+        count.
+      </p>
+    </div>
+
+    <div class="features-grid">
+
+      <div class="feature-card reveal" data-reveal="fade-up">
+        <div class="feature-card-glow"></div>
+        <div class="feature-number">01</div>
+        <div class="feature-icon"><i class="fa-solid fa-house-chimney"></i></div>
+        <h3>Indoor Cage Cricket</h3>
+        <p>Weather-proof, fully enclosed indoor cages for uninterrupted practice all year round, rain or shine.</p>
+        <span class="feature-tag">All-Weather</span>
+      </div>
+
+      <div class="feature-card reveal" data-reveal="fade-up" style="--delay:0.1s">
+        <div class="feature-card-glow"></div>
+        <div class="feature-number">02</div>
+        <div class="feature-icon"><i class="fa-solid fa-cloud-sun"></i></div>
+        <h3>Outdoor Cage Cricket</h3>
+        <p>Open-air caged pitches that bring the true feel of the game with natural light and open sky.</p>
+        <span class="feature-tag">Open Air</span>
+      </div>
+
+      <div class="feature-card reveal" data-reveal="fade-up" style="--delay:0.2s">
+        <div class="feature-card-glow"></div>
+        <div class="feature-number">03</div>
+        <div class="feature-icon"><i class="fa-solid fa-moon"></i></div>
+        <h3>Day-Night Net Practice</h3>
+        <p>Floodlit nets extend your training window well into the night for flexible, round-the-clock sessions.</p>
+        <span class="feature-tag">Floodlit</span>
+      </div>
+
+      <div class="feature-card reveal" data-reveal="fade-up" style="--delay:0.3s">
+        <div class="feature-card-glow"></div>
+        <div class="feature-number">04</div>
+        <div class="feature-icon"><i class="fa-solid fa-gauge-high"></i></div>
+        <h3>Bowling Machine Access</h3>
+        <p>Precision bowling machines for consistent pace, line, and length — perfect for isolating and fixing technique.</p>
+        <span class="feature-tag">High-Tech</span>
+      </div>
+
+      <div class="feature-card reveal" data-reveal="fade-up" style="--delay:0.4s">
+        <div class="feature-card-glow"></div>
+        <div class="feature-number">05</div>
+        <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <h3>Premium Turf Pitch</h3>
+        <p>True-bounce, professionally maintained turf pitches that replicate real match-day conditions.</p>
+        <span class="feature-tag">Match-Grade</span>
+      </div>
+
+      <div class="feature-card reveal" data-reveal="fade-up" style="--delay:0.5s">
+        <div class="feature-card-glow"></div>
+        <div class="feature-number">06</div>
+        <div class="feature-icon"><i class="fa-solid fa-id-badge"></i></div>
+        <h3>Club Memberships</h3>
+        <p>Flexible membership tiers with priority booking, discounted rates, and exclusive access to club events.</p>
+        <span class="feature-tag">Members Only</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TIMINGS -->
+<section class="timings" id="timings">
+  <div class="hero-grid-overlay"></div>
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow reveal" data-reveal="fade-up">Availability</span>
+      <h2 class="section-title reveal" data-reveal="fade-up" style="--delay:0.1s">
+        Club Timings & Live Status
+      </h2>
+      <p class="section-desc reveal" data-reveal="fade-up" style="--delay:0.2s">
+        Open seven days a week. Check live status below to see if we're currently open for play.
+      </p>
+    </div>
+
+    <div class="timings-dashboard reveal" data-reveal="scale-up">
+      <div class="timings-status-bar">
+        <div class="status-indicator">
+          <span class="status-dot" id="statusDot"></span>
+          <span class="status-text" id="statusText">Checking live status...</span>
+        </div>
+        <div class="status-clock" id="statusClock">--:--:--</div>
+      </div>
+
+      <div class="timings-grid">
+        <div class="timing-card">
+          <div class="timing-card-header">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Monday – Friday</h3>
+          </div>
+          <div class="timing-card-hours">
+            <span class="timing-time">05:00 AM</span>
+            <span class="timing-sep"><i class="fa-solid fa-arrow-right-long"></i></span>
+            <span class="timing-time">12:00 AM</span>
+          </div>
+          <p class="timing-card-note">19 hours of daily access for early risers and night-owls alike.</p>
+          <div class="timing-bar">
+            <div class="timing-bar-fill" style="width: 79%;"></div>
+          </div>
+        </div>
+
+        <div class="timing-card">
+          <div class="timing-card-header">
+            <i class="fa-solid fa-calendar-days"></i>
+            <h3>Saturday & Sunday</h3>
+          </div>
+          <div class="timing-card-hours">
+            <span class="timing-time">10:00 AM</span>
+            <span class="timing-sep"><i class="fa-solid fa-arrow-right-long"></i></span>
+            <span class="timing-time">11:00 PM</span>
+          </div>
+          <p class="timing-card-note">A relaxed weekend window built for full-day cricket sessions.</p>
+          <div class="timing-bar">
+            <div class="timing-bar-fill" style="width: 54%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timings-week-strip">
+        <div class="week-day" data-day="0"><span>Sun</span></div>
+        <div class="week-day" data-day="1"><span>Mon</span></div>
+        <div class="week-day" data-day="2"><span>Tue</span></div>
+        <div class="week-day" data-day="3"><span>Wed</span></div>
+        <div class="week-day" data-day="4"><span>Thu</span></div>
+        <div class="week-day" data-day="5"><span>Fri</span></div>
+        <div class="week-day" data-day="6"><span>Sat</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow reveal" data-reveal="fade-up">Get In Touch</span>
+      <h2 class="section-title reveal" data-reveal="fade-up" style="--delay:0.1s">
+        Find Us & Book Your Session
+      </h2>
+      <p class="section-desc reveal" data-reveal="fade-up" style="--delay:0.2s">
+        Drop by, give us a call, or send a booking query below — our team will confirm your slot promptly.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal" data-reveal="fade-up">
+        <div class="contact-info-card">
+          <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4>Our Address</h4>
+            <p>101 Model Town Circular Road, Block E Model Town, Lahore, Pakistan</p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <h4>Call Us</h4>
+            <p><a href="tel:+923214489894">+92 321 4489894</a></p>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon"><i class="fa-solid fa-clock"></i></div>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>Mon – Fri: 5:00 AM – 12:00 AM<br/>Sat – Sun: 10:00 AM – 11:00 PM</p>
+          </div>
+        </div>
+
+        <div class="contact-map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.7937402636906!2d74.3175578!3d31.4823695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919040f7c4593c5%3A0x7f8b64f21c21844c!2sModel%20Town%20Whites%20Cage%20Cricket%20Club!5e0!3m2!1sen!2spk!4v1710000000000!5m2!1sen!2spk"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Model Town Whites Cage Cricket Club Location">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal" data-reveal="fade-up" style="--delay:0.15s">
+        <form class="contact-form" id="bookingForm" novalidate>
+          <h3>Booking Query</h3>
+          <p class="contact-form-desc">Fill in your details and preferred slot — we'll get back to confirm availability.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" placeholder="e.g. Ahmed Raza" required />
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="e.g. 0300 1234567" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="emailAddress">Email Address</label>
+            <input type="email" id="emailAddress" name="emailAddress" placeholder="e.g. you@example.com" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="facilityType">Facility</label>
+              <select id="facilityType" name="facilityType" required>
+                <option value="" disabled selected>Select a facility</option>
+                <option value="indoor">Indoor Cage Cricket</option>
+                <option value="outdoor">Outdoor Cage Cricket</option>
+                <option value="nets">Day-Night Net Practice</option>
+                <option value="bowling-machine">Bowling Machine Access</option>
+                <option value="turf">Premium Turf Pitch</option>
+                <option value="membership">Club Membership</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="preferredDate">Preferred Date</label>
+              <input type="date" id="preferredDate" name="preferredDate" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="messageBox">Message</label>
+            <textarea id="messageBox" name="messageBox" rows="4" placeholder="Tell us about your preferred time slot or group size..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block magnetic" id="submitBtn">
+            <span id="submitBtnText">Submit Booking Query</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+
+          <div class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Thanks! Your booking query has been received. Our team will contact you shortly at the number provided.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-col footer-brand">
+      <a href="#home" class="logo" data-scroll>
+        <span class="logo-mark"><i class="fa-solid fa-baseball"></i></span>
+        <span class="logo-text">
+          MODEL TOWN <span class="accent">WHITES</span>
+          <small>CAGE CRICKET CLUB</small>
+        </span>
+      </a>
+      <p>Lahore's premium cage cricket destination — indoor, outdoor, day and night. Come train where the game never stops.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#home" data-scroll>Home</a>
+      <a href="#about" data-scroll>About</a>
+      <a href="#features" data-scroll>Features</a>
+      <a href="#timings" data-scroll>Timings</a>
+      <a href="#contact" data-scroll>Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Facilities</h4>
+      <a href="#features" data-scroll>Indoor Cage Cricket</a>
+      <a href="#features" data-scroll>Outdoor Cage Cricket</a>
+      <a href="#features" data-scroll>Day-Night Net Practice</a>
+      <a href="#features" data-scroll>Bowling Machine Access</a>
+      <a href="#features" data-scroll>Premium Turf Pitch</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><i class="fa-solid fa-location-dot"></i> 101 Model Town Circular Road, Block E Model Town, Lahore, Pakistan</p>
+      <p><i class="fa-solid fa-phone"></i> <a href="tel:+923214489894">+92 321 4489894</a></p>
+      <p><i class="fa-solid fa-clock"></i> Mon–Fri: 5AM–12AM &nbsp;|&nbsp; Sat–Sun: 10AM–11PM</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; <span id="currentYear"></span> Model Town Whites Cage Cricket Club. All Rights Reserved.</p>
+      <p>Designed for players who play to win.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
